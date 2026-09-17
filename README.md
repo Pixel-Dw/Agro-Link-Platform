@@ -1,0 +1,1 @@
+Agro-Link is a digital platform designed to bridge the gap between agricultural producers and the modern marketplace. By providing streamlined access to resources, market data, and community tools, Agro-Link empowers farmers to optimize their production and increase their economic stability.
