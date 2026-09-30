@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AgriConnect Nigeria - Farmer & Buyer Marketplace</title>
+  <title>Veridian Nexus - Farmer & Buyer Marketplace</title>
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Lucide Icons -->
@@ -20,7 +20,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
       <div class="flex items-center gap-2">
         <i data-lucide="sprout" class="w-8 h-8 text-emerald-300"></i>
-        <span class="text-xl font-bold tracking-tight">AgriConnect <span class="text-emerald-300">NG</span></span>
+        <span class="text-xl font-bold tracking-tight">Veridian <span class="text-emerald-300">Nexus</span></span>
       </div>
       
       <!-- Navigation Tabs -->
@@ -216,7 +216,7 @@
 
   <!-- Footer -->
   <footer class="bg-slate-900 text-slate-400 py-6 border-t border-slate-800 text-center text-sm">
-    <p>&copy; 2026 AgriConnect Nigeria. Empowering local farmers and buyers.</p>
+    <p>&copy; 2026 Veridian Nexus. Empowering local farmers and buyers.</p>
   </footer>
 
   <!-- Application JavaScript Logic -->
@@ -255,20 +255,20 @@
         category: "Vegetables",
         farmer: "Green Pastures Veggies",
         location: "Jos, Plateau State",
-        phone: "08182643377",
+        phone: "08145556677",
         image: "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&q=80&w=600",
         description: "Firm, fresh red tomatoes directly from Jos farms. Ideal for markets and restaurants."
       }
     ];
 
     // State Management
-    let products = JSON.parse(localStorage.getItem('agri_products')) || initialProducts;
-    let appointments = JSON.parse(localStorage.getItem('agri_appointments')) || [];
+    let products = JSON.parse(localStorage.getItem('vn_products')) || initialProducts;
+    let appointments = JSON.parse(localStorage.getItem('vn_appointments')) || [];
 
     // Save Data to Local Storage
     function saveData() {
-      localStorage.setItem('agri_products', JSON.stringify(products));
-      localStorage.setItem('agri_appointments', JSON.stringify(appointments));
+      localStorage.setItem('vn_products', JSON.stringify(products));
+      localStorage.setItem('vn_appointments', JSON.stringify(appointments));
     }
 
     // Currency Formatter
